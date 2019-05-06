@@ -5,8 +5,6 @@
 body {
     color: #fff;
     text-align: center;
-
-    background: url('images/bg.jpg') fixed;
     background-size: cover;
 }
 
@@ -14,7 +12,8 @@ body {
   padding: 170px 30px 80px;
   height: 100vh;
   height: 100vh;
-  background-color: rgba(25, 25, 120, 0.9);
+  background: url('large.jpg') fixed;
+  background-size: cover;
 }
 
 .site-title-sub {
@@ -30,7 +29,8 @@ body {
 
 .site-description {
     margin-bottom: 50px;
-    color: #888;
+    color: white;
+    font-size: 18px;
 }
 
 .button {
@@ -43,7 +43,7 @@ body {
     color: #fff;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 0.7rem;
+    font-size: 20px;
 }
 
 .button:hover {
@@ -52,6 +52,7 @@ body {
 
 .button-orange {
     background-color: #f1b400;
+    font-size: 20px;
 }
 
 .about {
@@ -81,6 +82,8 @@ body {
   height: 100vh;
   background-color: #383634;
   padding: 80px 0 10px;
+  background: url('3-Infinite-Wooden-Floors.jpg') fixed;
+  background-size: cover;
 }
 
 .works-wrapper {
@@ -103,12 +106,14 @@ body {
 
 .work-description {
   margin: 20px 0;
+  font-size: 1rem;
 }
 
 .work-description .button {
   width: 60%;
   margin-top: 20px;
   padding: 3px;
+  font-size: 1rem;
 }
 
 .button-ghost {
@@ -161,5 +166,10 @@ body {
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+  p2 {
+  font-size: 2rem;
+}
 
-
+li {
+  font-size: 20px;
+}
