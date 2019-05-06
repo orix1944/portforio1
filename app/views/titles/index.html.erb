@@ -12,55 +12,62 @@
     <h1 class="site-title">My WORKS</h1>
     <p class="site-description">Check out some of my works.</p>
     <div class="buttons">
-      <a class="button" href="#about">Learn MORE</a>
-      <a class="button button-orange" href="#contact">SEND MESSAGE</a>
+      <a class="button" href="#about">Plofile more</a>
+      <a class="button button-orange" href="#works">Portfolio link</a>
     </div>
   </header>
 
   <section class="about" id="about">
     <h2 class="heading">PROFILE</h2>
     <p class="about-text">
-      子どもの頃からモノづくりが好きで、いまはウェブアプリをつくることにハマっています。
-      Railsは難しくて最初は使えるようになるのかな？と不安に感じましたが、いまは本当に便利なフレームワークだなと思っています。<br>
-      これから、共通の趣味を持った仲間がコミュニケーションを取れるようなオリジナルアプリをつくっていきます。来月リリース予定なので、興味のある方はぜひお試しください！
+      エンジニアという仕事に興味をもちプログラミングスクールに通いました。興味を持った理由は、IT技術に興味があったからと手に職をつけたいという思いがあったからです。<br>
+      学習したこと<br>
+      ・html,css,scss,haml<br>
+      ・javascript,jquery<br>
+      ・ruby on rails<br>
+      ・heroku,aws
     </p>
   </section>
 
-  <section class="works">
+  <section class="works" id="works">
     <h2 class="heading">MY WORKS</h2>
     <div class="works-wrapper">
       <div class="work-box">
-        <img class="work-image" src="images/pictweet.jpg" alt="制作事例">
+        <p2>
+          ポートフォリオ
+        </p2>
         <div class="work-description">
-          Pictweet<br>
-          <a href="#" class="button button-ghost">READ MORE</a>
+          <br>
+          <li>
+            <%= link_to '詳細', "", { :class => "button button-ghost" } %>
+          </li>
         </div>
       </div>
 
       <div class="work-box">
-        <img class="work-image" src="images/mooovi.jpg" alt="制作事例">
+        <p2>
+          ポートフォリオ
+        </p2>
         <div class="work-description">
-          Mooovi<br>
-          <a href="#" class="button button-ghost">READ MORE</a>
+          talkroom<br>
+          <li>
+            <%= link_to '詳細', "http://52.199.242.162/", { :class => "button button-ghost" } %>
+          </li>
         </div>
       </div>
 
       <div class="work-box">
-        <img class="work-image" src="images/profy.jpg" alt="制作事例">
+        <p2>
+          ポートフォリオ
+        </p2>
         <div class="work-description">
-          Profy<br>
-          <a href="#" class="button button-ghost">READ MORE</a>
+          mercari<br>
+          <li>
+            <%= link_to '詳細', "http://18.179.213.108/", { :class => "button button-ghost" } %>
+          </li>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="contact" id="contact">
-    <form class="contact-form">
-      <input type="text" name="name" placeholder="NAME">
-      <textarea name="message" placeholder="MESSAGE"></textarea>
-      <input type="submit" value="SEND">
-    </form>
-  </section>
-</body>
-</html>
+
